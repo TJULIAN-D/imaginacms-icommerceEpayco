@@ -20,7 +20,7 @@ return [
         'activate' => 'Activate',
         'publicKey' => 'Public Key',
         'clientId' => 'Client Id',
-        'pKey' => 'P_KEY',
+        'pKey' => 'P_KEY (Llave de seguridad del comercio)',
         'autoClick' => 'Desplegar el popup automaticamente al cargar la página',
         'testMode' => 'Test Mode',
     ],

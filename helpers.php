@@ -12,7 +12,7 @@ if (!function_exists('icommerceepayco_encriptUrl')) {
 
      function icommerceepayco_encriptUrl($orderID,$transactionID){
 
-        $url = "{$orderID}-{$transactionID}-".time();
+        $url = "{$orderID}-{$transactionID}";
         $encrip = base64_encode($url);
 
         return  $encrip;

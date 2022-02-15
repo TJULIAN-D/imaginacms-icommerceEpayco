@@ -26,7 +26,7 @@
                   data-epayco-description="{{$config->description}}"
                   data-epayco-currency="{{$config->currency}}"
                   data-epayco-country="{{$config->country}}"
-                  data-epayco-test="{{$config->test ? 'true':'false'}}"
+                  data-epayco-test="{{$config->test}}"
                   data-epayco-external="{{$config->external ? 'true':'false'}}"
                   data-epayco-response="{{$config->responseUrl}}"
                   data-epayco-confirmation="{{$config->confirmationUrl}}"

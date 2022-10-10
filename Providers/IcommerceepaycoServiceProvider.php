@@ -42,7 +42,7 @@ class IcommerceepaycoServiceProvider extends ServiceProvider
         $this->publishConfig('icommerceepayco', 'config');
         $this->publishConfig('icommerceepayco', 'crud-fields');
 
-        $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
+        //$this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
     }
 
     /**

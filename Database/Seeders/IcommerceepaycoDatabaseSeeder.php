@@ -18,6 +18,7 @@ class IcommerceepaycoDatabaseSeeder extends Seeder
       
       Model::unguard();
   
+      $this->call(IcommerceepaycoModuleTableSeeder::class);
       $name = config('asgard.icommerceepayco.config.paymentName');
       $result = PaymentMethod::where('name',$name)->first();
 

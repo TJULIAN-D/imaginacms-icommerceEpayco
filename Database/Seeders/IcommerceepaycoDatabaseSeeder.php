@@ -32,6 +32,7 @@ class IcommerceepaycoDatabaseSeeder extends Seeder
         $options['autoClick'] = true;
         $options['test'] = true;
         $options['minimunAmount'] = 15000;
+        $options['showInCurrencies'] = ["COP"];
   
         $titleTrans = 'Epayco';
         $descriptionTrans = 'icommerceepayco::icommerceepaycos.description';
